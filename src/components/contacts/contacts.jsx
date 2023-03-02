@@ -8,7 +8,7 @@ export const Contacts = ({ contacts, onDeleteContact }) => {
           return (
             <Item key={contact.id}>
               <p> {contact.name} :</p>
-              <p> {contact.number}</p>
+              <p> {contact.number} :</p>
               <Button type="button" onClick={() => onDeleteContact(contact.id)}>
                 Delete
               </Button>
